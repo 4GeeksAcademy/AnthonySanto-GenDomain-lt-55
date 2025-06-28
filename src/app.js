@@ -14,7 +14,7 @@ window.onload = function() {
     return arr[Math.floor(Math.random() * arr.length)];
   }
 
-  function getdomain(){
+  function GenerateDomain(){
     for(let i = 0; i < pronoun.length; i++){
       for(let z = 0; z < adj.length; z++){
         for(let x = 0; x < noun.length; x++){
@@ -25,5 +25,5 @@ window.onload = function() {
     }
   }
 
-  getdomain();
+  GenerateDomain();
 };
